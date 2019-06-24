@@ -1,0 +1,5 @@
+grant {
+  permission jdk.dio.gpio.GPIOPinPermission "*:*";
+  permission jdk.dio.DeviceMgmtPermission "*:*", "open";
+  permission jdk.dio.spibus.SPIPermission "*:*";
+};
